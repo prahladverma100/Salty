@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Sen:wght@400;500;600;700;800&display=swap');
+
+:root {
+    /* font-size */
+    --fs_xsm: 12px;
+    --fs_2xsm: 14px;
+    --fs_2sm: 16px;
+    --fs_md: 13px;
+    --fs_2md: 19px;
+    --fs_lg: 20px;
+    --fs_2lg: 21px;
+    --fs_xl: 24px;
+    --fs_2xl: 26px;
+    --fs_xxl: 30px;
+    --font-size: 40px;
+    --fs_2xxl: 46px;
+    --fs_1xl: 31px;
+    --fs_3xl: 66px;
+    --font_xxl: 44px;
+    /* color */
+    --bg_color: #FAF8ED;
+    --white: #FAF8ED;
+    --text_blue: #2E476B;
+    --text_black: #2D3134;
+    --bg_black: #2D3134;
+    --secendery_black: #5B5F62;
+    --greay: #9498A4;
+    --red: #F66F4D;
+    --bg-primary-white: #FDFEFF;
+}
+
+.fs_xsm {
+    font-size: var(--fs_xsm);
+}
+
+.fs_2xsm {
+    font-size: var(--fs_2xsm);
+}
+
+.fs_2sm {
+    font-size: var(--fs_2sm);
+}
+
+.fs_sm {
+    font-size: var(--fs_sm);
+}
+
+
+.fs_md {
+    font-size: var(--fs_md);
+}
+
+.fs_2md {
+    font-size: var(--fs_2md);
+}
+
+.fs_lg {
+    font-size: var(--fs_lg);
+}
+
+.fs_2lg {
+    font-size: var(--fs_2lg);
+}
+
+.fs_xl {
+    font-size: var(--fs_xl);
+}
+
+.fs_2xl {
+    font-size: var(--fs_2xl);
+}
+
+.fs_xxl {
+    font-size: var(--fs_xxl);
+}
+
+.fs_2xxl {
+    font-size: var(--fs_2xxl);
+}
+
+.fs_1xl {
+    font-size: var(--fs_1xl);
+}
+
+.fs_3xl {
+    font-size: var(--fs_3xl);
+}
+
+.font_xxl {
+    font-size: var(--font_xxl);
+}
+
+.font-size {
+    font-size: var(--font-size);
+}
+
+/* color */
+.bg_color {
+    background-color: var(--bg_color);
+}
+
+.text_blue {
+    color: var(--text_blue);
+}
+
+.red {
+    color: var(--red);
+}
+
+.bg_black {
+    background-color: var(--bg_black);
+}
+
+.secendery_black {
+    color: var(--secendery_black);
+}
+
+.text_black {
+    color: var(--text_black);
+}
+
+.greay {
+    color: var(--greay);
+}
+
+.white {
+    color: var(--white);
+}
+
+.bg-primary-white {
+    background-color: var(--bg-primary-white);
+}
+
+/* font-weight */
+.fw-300 {
+    font-weight: 300;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-600 {
+    font-weight: 600 !important;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.ff_Poppins {
+    font-family: Poppins !important;
+}
+
+.ff_sen {
+    font-family: sen !important;
+}
+
+.ff_inter {
+    font-family: inter !important;
+}
+
+@media (min-width:576px) {
+    :root {
+        /* font-size */
+        --fs_xsm: 12px;
+        --fs_2xsm: 14px;
+        --fs_2sm: 16px;
+        --fs_md: 18px;
+        --fs_2md: 19px;
+        --fs_lg: 20px;
+        --fs_2lg: 21px;
+        --fs_xl: 24px;
+        --fs_2xl: 26px;
+        --fs_xxl: 30px;
+        --font-size: 40px;
+        --fs_2xxl: 46px;
+        --fs_1xl: 56px;
+        --fs_3xl: 66px;
+        --font_xxl: 60px;
+    }
+
+
+}
+
+@media (min-width:768px) {
+    :root {
+        /* font-size */
+        --fs_xsm: 12px;
+        --fs_2xsm: 14px;
+        --fs_2sm: 16px;
+        --fs_md: 18px;
+        --fs_2md: 19px;
+        --fs_lg: 20px;
+        --fs_2lg: 21px;
+        --fs_xl: 24px;
+        --fs_2xl: 26px;
+        --fs_xxl: 30px;
+        --font-size: 40px;
+        --fs_2xxl: 46px;
+        --fs_1xl: 56px;
+        --fs_3xl: 66px;
+        --font_xxl: 84px;
+    }
+
+
+}
+
+@media (min-width:992px) {
+    :root {
+        /* font-size */
+        --fs_xsm: 12px;
+        --fs_2xsm: 14px;
+        --fs_2sm: 16px;
+        --fs_md: 18px;
+        --fs_2md: 19px;
+        --fs_lg: 20px;
+        --fs_2lg: 21px;
+        --fs_xl: 24px;
+        --fs_2xl: 26px;
+        --fs_xxl: 30px;
+        --font-size: 40px;
+        --fs_2xxl: 46px;
+        --fs_1xl: 56px;
+        --fs_3xl: 66px;
+        --font_xxl: 84px;
+    }
+
+
+}
+
+@media (min-width:1200px) {
+    :root {
+        /* font-size */
+        --fs_xsm: 12px;
+        --fs_2xsm: 14px;
+        --fs_2sm: 16px;
+        --fs_md: 18px;
+        --fs_2md: 19px;
+        --fs_lg: 20px;
+        --fs_2lg: 21px;
+        --fs_xl: 24px;
+        --fs_2xl: 26px;
+        --fs_xxl: 30px;
+        --font-size: 40px;
+        --fs_2xxl: 46px;
+        --fs_1xl: 56px;
+        --fs_3xl: 66px;
+        --font_xxl: 84px;
+    }
+
+
+}
